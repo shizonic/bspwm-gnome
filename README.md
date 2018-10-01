@@ -1,4 +1,4 @@
-# i3-gnome [![Maintenance](https://img.shields.io/maintenance/yes/2018.svg)]()
+# bspwm-gnome [![Maintenance](https://img.shields.io/maintenance/yes/2018.svg)]()
 
 Allows you to use i3-wm with GNOME 3 Session infrastructure.
 
