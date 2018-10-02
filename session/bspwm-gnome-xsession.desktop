@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=GNOME + BSPWM
+Comment=This session logs you into GNOME with bspwm as the window manager
+Exec=gnome-session-bspwm
+TryExec=bspwm-gnome
+Icon=
+Type=Application
+DesktopNames=GNOME
+X-Ubuntu-Gettext-Domain=gnome-session-3.0

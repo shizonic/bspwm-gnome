@@ -1,15 +1,12 @@
 # bspwm-gnome [![Maintenance](https://img.shields.io/maintenance/yes/2018.svg)]()
+### An [i3-gnome](https://github.com/csxr/i3-gnome) fork for bspwm
 
-Allows you to use i3-wm with GNOME 3 Session infrastructure.
+Allows you to use bspwm with GNOME 3 Session infrastructure.
 
 ## Requirements
-* i3-wm
+* bspwm
 * GNOME (3.30.x)
 * GDM (optional, but useful)
-* [GNOME Flashback](https://github.com/jcstr/i3-gnome/wiki/Tips-&-Tricks#gnome-flashback)
-
-## Packages
-[![i3-gnome](https://img.shields.io/aur/version/i3-gnome.svg?label=i3-gnome)](https://aur.archlinux.org/packages/i3-gnome/)
 
 ## Installation from scratch
 Using `make`:
@@ -32,4 +29,3 @@ Visit our [wiki](https://github.com/51v4n/i3-gnome/wiki) to get reference and mo
 
 ---
 MIT - © 2014 [Lorenzo Villani](https://github.com/lvillani).
-
