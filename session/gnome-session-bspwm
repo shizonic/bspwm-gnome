@@ -1,2 +1,9 @@
 #! /bin/sh
-env GNOME_SHELL_SESSION_MODE=classic gnome-session --session bspwm-gnome "$@"
+gnome-session --help 2>/dev/null | grep -- --builtin > /dev/null
+HASBUILTIN=$?
+if [ $HASBUILTIN -eq 0 ]; then
+    BUILTINARG="--builtin"
+else
+    BUILTINARG=""
+fi
+gnome-session $BUILTINARG --session bspwm-gnome "$@"
